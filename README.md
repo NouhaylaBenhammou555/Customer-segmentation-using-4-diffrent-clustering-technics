@@ -11,5 +11,6 @@ important task in data analysis as it is used in many scientific, engineering an
 • Hierarchical algorithms recursively split a dataset into a smaller subset until a subset contains only one item. This can be represented with a dendrogram which looks like a tree. It can be constructed from leaves to the root (agglomerative approach) or from the root down to the leaves (divisive approach). In hierarchical clustering, you don't have to specify the number of clusters but you have to define a termination condition for splitting/merging process.
 
 • Partitional algorithms divide a dataset into several subsets (clusters) based on a given criteria. For some algorithms number of clusters has to be defined a priori(e.g K-Means) and for some not (DBSCAN). Defining the number of clusters before running an algorithm often requires a specific domain knowledge which is often challenging (or even impossible) in many applications. This led to the development of many heuristics and simplified approaches helping analyst without domain knowledge to choose the appropriate number of clusters.
-3
 
+
+<img width="743" alt="Capture d’écran 2022-07-22 162126" src="https://user-images.githubusercontent.com/77208565/180471430-02ea2986-e3eb-475f-90dd-725e4bec76b1.png">
